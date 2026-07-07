@@ -636,7 +636,7 @@ def page_simulation(resultats_df, objets_modeles):
             taxe_habitation = st.selectbox("Taxe habitation", ["Régulier", "Quelques retards", "Retards fréquents"])
             tsc = st.selectbox("Taxe services communaux", ["Régulier", "Quelques retards", "Retards fréquents"])
 
-        predire = st.button("Évaluer le risque de crédit", use_container_width=True)
+        predire = st.button("Scoring", use_container_width=True)
 
     with right:
         st.markdown('<div class="section-title">📊 Résultat du scoring</div>', unsafe_allow_html=True)
